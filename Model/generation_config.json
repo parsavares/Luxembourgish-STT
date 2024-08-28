@@ -1,0 +1,15 @@
+{
+  "begin_suppress_tokens": [
+    220,
+    50257
+  ],
+  "bos_token_id": 50257,
+  "decoder_start_token_id": 50258,
+  "eos_token_id": 50257,
+  "max_length": 448,
+  "pad_token_id": 50257,
+  "return_timestamps": false,
+  "suppress_tokens": [],
+  "transformers_version": "4.40.2",
+  "use_cache": false
+}
