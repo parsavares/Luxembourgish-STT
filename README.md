@@ -35,6 +35,32 @@ Since you want to use CUDA, you’ll need to install the CUDA Toolkit. Here’s 
     Verify CUDA Installation:
         After installation, you should be able to run nvcc --version in your terminal to verify the installation.
         Additionally, running nvidia-smi should give you detailed information about your GPU and the installed CUDA version.
+
+        
+=>
+PS D:\GIT\Luxembourgish-STT> nvidia-smi
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce GTX 960M      WDDM  |   00000000:01:00.0 Off |                  N/A |
+| N/A    0C    P8             N/A /  200W |       0MiB /   4096MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+
+
 ### 3.
 Install PyTorch with CUDA Support
 
