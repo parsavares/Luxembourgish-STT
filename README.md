@@ -38,6 +38,7 @@ Since you want to use CUDA, you’ll need to install the CUDA Toolkit. Here’s 
 
         
 =>
+```
 PS D:\GIT\Luxembourgish-STT> nvidia-smi
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 560.94                 Driver Version: 560.94         CUDA Version: 12.6     |
@@ -58,7 +59,7 @@ PS D:\GIT\Luxembourgish-STT> nvidia-smi
 |=========================================================================================|
 |  No running processes found                                                             |
 +-----------------------------------------------------------------------------------------+
-
+```
 
 
 ### 3.
