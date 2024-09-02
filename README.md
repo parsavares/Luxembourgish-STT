@@ -65,7 +65,9 @@ PS D:\GIT\Luxembourgish-STT> nvidia-smi
 ### 3.
 Install PyTorch with CUDA Support
 
-Once CUDA is installed, you can install PyTorch with CUDA support:
+
+
+Once CUDA is installed, run `nvcc --version` then you can install PyTorch with CUDA support:
 
     Install PyTorch with CUDA:
         Install PyTorch using the following command, which will automatically select the appropriate CUDA version (replace cu118 with cu116 or cu113 if you installed a different version of CUDA):
