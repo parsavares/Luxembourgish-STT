@@ -37,7 +37,7 @@ Since you want to use CUDA, you’ll need to install the CUDA Toolkit. Here’s 
         Additionally, running nvidia-smi should give you detailed information about your GPU and the installed CUDA version.
 
         
-=>
+=> Run `nvidia-smi` in your Python terminal of your VS code
 ```
 PS D:\GIT\Luxembourgish-STT> nvidia-smi
 +-----------------------------------------------------------------------------------------+
